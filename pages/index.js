@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
+import Launch from './Launch';
+
 const Home = ()  => {
   return (
     <div className={styles.container}>
@@ -11,13 +13,10 @@ const Home = ()  => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome !
+          Launch API V2 !
         </h1>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+        <Launch />
 
       </main>
 
